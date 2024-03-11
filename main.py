@@ -1,5 +1,5 @@
 import couleur
-with open("C:\\Users\\MATHEO.BESSON\\Documents\\autre\\codage\\python\\ia\\data.txt", "r+", encoding='utf-8') as data:
+with open("data.txt", "r+", encoding='utf-8') as data:
     # Lecture du contenu du fichier
     ligne_count = 0
     print()
