@@ -1,10 +1,9 @@
-import couleur
 with open("data.txt", "r+", encoding='utf-8') as data:
     # Lecture du contenu du fichier
     ligne_count = 0
     print()
     print()
-    print(couleur.colorise("g Bienvenue sur MathAI, le robot de Mathéo \n pour quitter et sauvegarder les majs, taper 'q'"))
+    print("g Bienvenue sur MathAI, le robot de Mathéo \n pour quitter et sauvegarder les majs, taper 'q'")
     print()
 
     # Lire les lignes du fichier et les stocker dans une liste
@@ -73,3 +72,4 @@ with open("data.txt", "r+", encoding='utf-8') as data:
     # Réécrire toutes les lignes dans le fichier
     data.seek(0)
     data.writelines(lignes)
+
